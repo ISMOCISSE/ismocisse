@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kanit&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit'; 
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 6px solid purple
+}
+nav h1{
+    color: black;
+    font-family: 'kanit';
+    font-size: 40px;
+
+}
+nav .onglets{
+    margin-left: 600px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: purple;
+    margin-right: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 1px;
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     background: url('img/didi.jpg');
+     background-size: cover;
+     color: aliceblue;
+     padding: 30px;
+
+}
+body{
+    background: url(img/sun-yellow-orange-red-mountains-hd-wallpaper-preview.jpg);
+    background-size: cover;
+}
+
+header h1{
+    font-family: 'kanit';
+    font-size: 50px;
+}
+header h4{
+    margin-top: -20px;
+    font-size: 20pxs;
+    border-bottom:1px solid aliceblue
+}
+
+header button{
+    padding: 10px 20px;
+    border: none;
+    font-family: 'kanit';
+}
+@media screen and (max-width:680px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+}
+
+header button:hover{
+    background-color: purple;
+    color: white;
+}
+
+  section{
+      padding-top: 70px;
+  }  
+  section form{
+      background-color: brown;
+      font-size: 40px;
+     text-align: center; 
+  }
+  section form b{
+      font-family: 'kanit',sans-serif;
+      color: whitesmoke;
+      
+  }
+  section form span{
+      color: red;
+  }
+
